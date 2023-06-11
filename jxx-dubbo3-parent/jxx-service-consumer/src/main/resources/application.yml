@@ -1,0 +1,18 @@
+server:
+  port: 8002
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: consumer
+dubbo:
+  application:
+    name: consumer
+    qos-port: 33333
+  protocol:
+    name: dubbo
+    port: 20881
+  registry:
+    address: nacos://${nacos.address:localhost}:8848?username=nacos&password=nacos
+  consumer:
+    filter: serviceFilter
