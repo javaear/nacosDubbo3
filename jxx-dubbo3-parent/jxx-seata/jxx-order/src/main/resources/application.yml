@@ -1,0 +1,57 @@
+server:
+  port: 8006
+  servlet:
+    context-path: /
+dubbo:
+  # Specify the application name of Dubbo
+  application:
+    name: ${spring.application.name}
+    # Specify the port of Dubbo QoS
+    qos-port: 20693
+
+  # Enable token verification for each invocation
+  provider:
+    token: true
+
+  # Specify the registry address
+  registry:
+    # address: nacos://localhost:8848?username=nacos&password=nacos
+    address: nacos://${nacos.address:localhost}:8848?username=nacos&password=nacos
+
+  # Specify the port of Dubbo Server
+  protocol:
+    port: 20889
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://${mysql.address:127.0.0.1}:${mysql.port:3306}/seata-order?useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: seata-order
+
+seata:
+  enabled: true
+  application-id: ${spring.application.name}
+  tx-service-group: default_tx_group
+  service:
+    vgroup-mapping:
+      default_tx_group: default
+    grouplist:
+      default: ${seata.address:127.0.0.1}:8091
+    enable-degrade: false
+    disable-global-transaction: false
+  config:
+    type: nacos
+    nacos:
+      server-addr: nacos://${nacos.address:localhost}:8848?username=nacos&password=nacos
+      namespace: seata
+      data-id: seataServer.properties
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: ${seata.address:127.0.0.1}:8091
+      namespace: seata

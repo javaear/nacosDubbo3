@@ -8,7 +8,7 @@ import org.jxx.dubbo.Interface.IHelloWordService;
  * date: 2023/6/11
  * author: javaear
  */
-@DubboService
+@DubboService(group = "jxx-frame")
 public class HelloWorldServiceImpl implements IHelloWordService {
     @Override
     public String hello(String message) {
