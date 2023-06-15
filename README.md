@@ -26,4 +26,11 @@ Dubbo3.2 重新起航，整合seata  jxx-seata
 执行 数据库脚本  
 seata\script\server\db\mysql.sql 
 
+2、seata1.4.0  db模式，nacos注册配置中心
+调试了 2天 最终用了1.4.0 ,seata软件放到了soft 目录
+
+run app 出现这个表示成功
+2023-06-15 23:12:26.251  INFO 8100 --- [eoutChecker_1_1] i.s.c.rpc.netty.TmNettyRemotingClient    : register TM success. client version:1.4.0, server version:1.4.0,channel:[id: 0x86c4a042, L:/192.168.1.101:58824 - R:/192.168.1.101:8091]
+2023-06-15 23:12:26.252  INFO 8100 --- [eoutChecker_1_1] i.s.core.rpc.netty.NettyPoolableFactory  : register success, cost 15 ms, version:1.4.0,role:TMROLE,channel:[id: 0x86c4a042, L:/192.168.1.101:58824 - R:/192.168.1.101:8091]
+
 
