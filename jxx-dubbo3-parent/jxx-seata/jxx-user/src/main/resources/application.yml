@@ -13,7 +13,7 @@ dubbo:
   registry:
     # address: nacos://localhost:8848?username=nacos&password=nacos
     address: nacos://${nacos.address:localhost}:8848?username=nacos&password=nacos
-
+    group: SEATA_GROUP
   # Specify the port of Dubbo Server
   protocol:
     port: 20882
@@ -27,7 +27,6 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   application:
     name: seata-user
-
 seata:
   enabled: true
   application-id: ${spring.application.name}
@@ -42,12 +41,17 @@ seata:
   config:
     type: nacos
     nacos:
-      server-addr: nacos://${nacos.address:localhost}:8848?username=nacos&password=nacos
-      namespace: seata
+      server-addr: ${nacos.address:localhost}:8848?username=nacos&password=nacos
+      group: SEATA_GROUP
+      username: nacos
+      password: nacos
       data-id: seataServer.properties
   registry:
     type: nacos
     nacos:
       application: seata-server
-      server-addr: ${seata.address:127.0.0.1}:8091
-      namespace: seata
+      server-addr: ${nacos.address:localhost}:8848?username=nacos&password=nacos
+      group: SEATA_GROUP
+      cluster: default
+      username: nacos
+      password: nacos

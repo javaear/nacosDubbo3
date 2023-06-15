@@ -23,7 +23,7 @@
         <lombok.version>1.18.12</lombok.version>
         <dubbo.version>3.2.0</dubbo.version>
         <nacos-client.verison>2.1.2</nacos-client.verison>
-        <seata.version>1.6.0</seata.version>
+        <seata.version>1.4.0</seata.version>
         <mysql.version>8.0.29</mysql.version>
         <lombok.version>1.18.24</lombok.version>
     </properties>
