@@ -19,11 +19,13 @@
         <module>jxx-service-interface</module>
         <module>jxx-service-consumer</module>
         <module>jxx-seata</module>
+        <module>jxx-security</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
         <dubbo.version>3.2.0</dubbo.version>
         <nacos.version>2.1.2</nacos.version>
+        <hutool.version>5.8.9</hutool.version>
         <junit.version>4.13.1</junit.version>
         <spring-boot.version>2.6.8</spring-boot.version>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -113,6 +115,11 @@
                 <version>${lombok.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

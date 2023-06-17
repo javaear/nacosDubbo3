@@ -78,3 +78,9 @@ http://localhost:8006/order/w?w=1
 2023-06-15 23:37:29.684  INFO 15936 --- [nio-8006-exec-2] i.seata.tm.api.DefaultGlobalTransaction  : [192.168.1.101:8091:412754101312835584] commit status: Committed
 2023-06-15 23:37:29.684  INFO 15936 --- [nio-8006-exec-2] org.jxx.dubbo.OrderViewController        : =============result:======
 
+###########################################
+
+
+整合spring security  jxx-security
+
+###########################################

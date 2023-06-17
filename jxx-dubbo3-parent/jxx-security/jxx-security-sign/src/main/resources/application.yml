@@ -1,0 +1,16 @@
+server:
+  port: 8002
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: consumer
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://${mysql.address:127.0.0.1}:${mysql.port:3306}/seata-order?useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+app:
+  jwt:
+    secret: Adnnadnjnjf2373278b78cb2y

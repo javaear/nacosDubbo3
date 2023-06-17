@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-goods/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-goods/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-seata-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-seata-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-security/jxx-security-sign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-security/jxx-security-sign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-security/jxx-security-tools/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-security/jxx-security-tools/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-producer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-producer/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

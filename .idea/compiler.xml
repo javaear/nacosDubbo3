@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jxx-user" />
+        <module name="jxx-order" />
+        <module name="untitled" />
+        <module name="jxx-service-producer" />
+        <module name="jxx-security-sign" />
+        <module name="jxx-service-interface" />
+        <module name="jxx-service-consumer" />
+        <module name="jxx-security-tools" />
+        <module name="jxx-goods" />
+        <module name="jxx-seata-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="jxx-dubbo3-parent" target="1.8" />
+      <module name="jxx-goods" target="1.8" />
+      <module name="jxx-order" target="1.8" />
+      <module name="jxx-seata" target="1.8" />
+      <module name="jxx-seata-interface" target="1.8" />
+      <module name="jxx-security" target="1.8" />
+      <module name="jxx-security-sign" target="1.8" />
+      <module name="jxx-security-tools" target="1.8" />
+      <module name="jxx-service-consumer" target="1.8" />
+      <module name="jxx-service-interface" target="1.8" />
+      <module name="jxx-service-producer" target="1.8" />
+      <module name="jxx-user" target="1.8" />
+      <module name="samples-account-service" target="1.8" />
+      <module name="samples-business-service" target="1.8" />
+      <module name="samples-common-service" target="1.8" />
+      <module name="samples-order-service" target="1.8" />
+      <module name="samples-storage-service" target="1.8" />
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jxx-dubbo3-parent" options="-parameters" />
+    </option>
+  </component>
+</project>

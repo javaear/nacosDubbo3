@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/jxx-dubbo3-parent/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/samples-account-service/pom.xml" />
+        <option value="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/samples-business-service/pom.xml" />
+        <option value="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/samples-common-service/pom.xml" />
+        <option value="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/samples-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/samples-storage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/untitled/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
