@@ -20,6 +20,8 @@
         <module>jxx-service-consumer</module>
         <module>jxx-seata</module>
         <module>jxx-security</module>
+        <module>jxx-teacher</module>
+        <module>jxx-oauth2</module>
     </modules>
     <packaging>pom</packaging>
     <properties>

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-dubbo3-parent.iml" filepath="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-dubbo3-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-goods/jxx-goods.iml" filepath="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-goods/jxx-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-oauth2/jxx-oauth2.iml" filepath="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-oauth2/jxx-oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-order/jxx-order.iml" filepath="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-order/jxx-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-seata.iml" filepath="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-seata.iml" />
       <module fileurl="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-seata-interface/jxx-seata-interface.iml" filepath="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-seata-interface/jxx-seata-interface.iml" />
@@ -13,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-consumer/jxx-service-consumer.iml" filepath="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-consumer/jxx-service-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-interface/jxx-service-interface.iml" filepath="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-interface/jxx-service-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-producer/jxx-service-producer.iml" filepath="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-producer/jxx-service-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-teacher/jxx-teacher.iml" filepath="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-teacher/jxx-teacher.iml" />
       <module fileurl="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-user/jxx-user.iml" filepath="$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-user/jxx-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/nacosDubbo3.iml" filepath="$PROJECT_DIR$/.idea/nacosDubbo3.iml" />
     </modules>

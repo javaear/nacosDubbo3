@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-oauth2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-oauth2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-goods/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-goods/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-seata/jxx-order/src/main/java" charset="UTF-8" />
@@ -19,5 +21,7 @@
     <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-interface/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-producer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-service-producer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-teacher/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jxx-dubbo3-parent/jxx-teacher/src/main/resources" charset="UTF-8" />
   </component>
 </project>
